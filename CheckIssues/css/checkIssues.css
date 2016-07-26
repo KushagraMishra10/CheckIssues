@@ -1,0 +1,72 @@
+.search-section{
+    position:relative;
+    text-align: center;
+    margin: 4% 0%;
+}
+.input-field{
+    display:inline-block;
+    width: 41%;
+    border: 1px solid black;
+    border-radius: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+}
+
+.input-field input{
+    width: 100%;
+    height: 24px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
+
+.search-button{
+    display:inline-block;
+    padding:10px;
+    vertical-align: middle;
+}
+
+.search-button .search{
+        padding: 5px;
+        outline: none;
+        border: 1px solid black;
+}
+
+
+.issue-table{
+    margin:0% 24%;
+    width: 52%;
+    border: 1px solid;
+        text-align: center;
+}
+
+.table-header{
+    
+    border-top:1px solid black;
+    padding: 1% 1.42%;
+    width:44%;
+    display:inline-block;
+    vertical-align: middle;
+    
+}
+
+.table-header:nth-child(1) {
+    
+    border-top:0px;
+}
+
+.table-content{
+    border:1px solid black;
+    padding: 1% 1.8%;
+    width: 49%;
+    display: inline-block;
+    margin-left: -4px;
+    border-right: 0px;
+    border-bottom: 0px;
+    vertical-align: middle;
+    
+}
+.table-content:nth-child(2) {
+    border-top:0px;
+}
