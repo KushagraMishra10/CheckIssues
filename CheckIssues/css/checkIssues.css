@@ -11,6 +11,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     vertical-align: middle;
+    padding-right: 10px;
 }
 
 .input-field input{
